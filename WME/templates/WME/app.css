@@ -1,0 +1,171 @@
+body {
+  font-family: 'Lato'; }
+
+.fa-btn {
+  margin-right: 6px; }
+
+.navbar-default {
+  background-color: #eb0356;
+  border-color: #eb0356; }
+
+.navbar-brand {
+  height: 62px; }
+
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav > li > a {
+  color: #fff; }
+
+.navbar-nav > li > a {
+  line-height: 34px; }
+
+.navbar {
+  min-height: 65px; }
+
+.navbar-brand > img {
+  max-width: 120px; }
+
+.navbar-default .navbar-toggle {
+  border-color: #fff; }
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #fff; }
+
+.navbar-toggle {
+  margin-top: 15px; }
+
+footer {
+  border-top: dotted 1px #c3c2c3;
+  margin: 0; }
+
+.copy {
+  margin: 15px 0 30px;
+  font-size: 13px;
+  text-align: center;
+  color: #888888; }
+
+.btn-primary {
+  color: #fff;
+  background-color: #eb0356;
+  border-color: #eb0356; }
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #a1063d;
+  border-color: #a1063d; }
+
+.btn-link {
+  color: #e8105d; }
+
+.btn-link:focus, .btn-link:hover {
+  color: #e8105d; }
+
+.btn-primary.focus, .btn-primary:focus {
+  color: #fff;
+  background-color: #eb0356;
+  border-color: #eb0356; }
+
+.btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover, .open > .dropdown-toggle.btn-primary.focus, .open > .dropdown-toggle.btn-primary:focus, .open > .dropdown-toggle.btn-primary:hover {
+  color: #fff;
+  background-color: #eb0356;
+  border-color: #eb0356; }
+
+.filterable {
+  margin-top: 15px; }
+
+.filterable .panel-heading .pull-right {
+  margin-top: -20px; }
+
+.filterable .filters input[disabled] {
+  background-color: transparent;
+  border: none;
+  cursor: auto;
+  box-shadow: none;
+  padding: 0;
+  height: auto; }
+
+.filterable .filters input[disabled]::-webkit-input-placeholder {
+  color: #333; }
+
+.filterable .filters input[disabled]::-moz-placeholder {
+  color: #333; }
+
+.filterable .filters input[disabled]:-ms-input-placeholder {
+  color: #333; }
+
+.panel-primary > .panel-heading {
+  color: #666;
+  background-color: #f3f3f3;
+  border-color: #f3f3f3; }
+
+.panel-primary {
+  border-color: #f3f3f3; }
+
+.right-box-btns {
+  text-align: right;
+  margin-top: 22px; }
+
+.btn-primary.active, .btn-primary:active, .open > .dropdown-toggle.btn-primary {
+  color: #fff;
+  background-color: #eb0356;
+  border-color: #eb0356; }
+
+.btn-default.active, .btn-default:active, .open > .dropdown-toggle.btn-default {
+  color: #fff;
+  background-color: #eb0356;
+  border-color: #eb0356; }
+
+.btn-default.active.focus, .btn-default.active:focus, .btn-default.active:hover, .btn-default:active.focus, .btn-default:active:focus, .btn-default:active:hover, .open > .dropdown-toggle.btn-default.focus, .open > .dropdown-toggle.btn-default:focus, .open > .dropdown-toggle.btn-default:hover {
+  color: #fff;
+  background-color: #eb0356;
+  border-color: #eb0356; }
+
+.btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus {
+  outline: thin dotted;
+  outline: none;
+  outline-offset: -2px; }
+
+.btn-primary.disabled.focus, .btn-primary.disabled:focus, .btn-primary.disabled:hover, .btn-primary[disabled].focus, .btn-primary[disabled]:focus, .btn-primary[disabled]:hover, fieldset[disabled] .btn-primary.focus, fieldset[disabled] .btn-primary:focus, fieldset[disabled] .btn-primary:hover {
+  background-color: #eb0356;
+  border-color: #eb0356; }
+
+@media screen and (max-width: 768px) {
+  .cta.col-md-6 {
+    width: 50%; } }
+
+@media screen and (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #fff; } }
+
+.login-template {
+  background-color: #efefef; }
+
+.login {
+  background: transparent url("../img/myfitlife.jpg") no-repeat 0 0;
+  background-size: cover;
+  width: 100%;
+  margin-top: -20px;
+  min-height: 425px; }
+
+.col-md-8.col-md-offset-4.login-form {
+  margin-top: 90px; }
+
+.quick-btn {
+  position: fixed;
+  padding: 5px 10px;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  bottom: 0px;
+  right: 0;
+  left: 0;
+  width: 100px; }
+
+.quick-btn .label {
+  position: absolute;
+  top: -5px;
+  right: -5px; }
+
+.label-environment {
+  background-color: #efefef; }
+
+/*# sourceMappingURL=app.css.map */
