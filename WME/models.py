@@ -33,27 +33,28 @@ class Policyholder (models.Model):
     email = models.CharField(max_length=100, default = '')
     def __int__(self):
         return self.firstname
-    
+
 class Child (models.Model):
     policyholder = models.ForeignKey(Policyholder, on_delete=models.CASCADE)
     firstname = models.CharField(max_length=30)
-    lastname = models.CharField(max_length=30)    
+    lastname = models.CharField(max_length=30)
     DOB = models.DateField(max_length=30)
-    UW = models.BooleanField(max_length=30) 
+    UW = models.BooleanField(max_length=30)
     def __str__(self):
         return self.firstname
-    
+
 class Bank (models.Model):
     policyholder = models.ForeignKey(Policyholder, on_delete=models.CASCADE)
     bankname = models.CharField(max_length=30, default = '', choices=BANK)
     accno = models.DecimalField(max_digits=15, decimal_places=0)
     branch = models.DecimalField(max_digits=6, decimal_places=0)
     startDate = models.DateField(max_length=30)
+    accept = models.BooleanField(max_length=3, default = False)
     def __str__(self):
         return self.accno
 
 #Forms
-    
+
 class PolicyholderForm(ModelForm):
     class Meta:
         model = Policyholder
@@ -68,6 +69,6 @@ class ChildForm(ModelForm):
 class BankForm(ModelForm):
     class Meta:
         model = Bank
-        exclude = ('policyholder',)
+        exclude = ('policyholder','accept')
 
 # Create your models here.

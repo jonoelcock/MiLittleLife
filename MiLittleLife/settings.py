@@ -25,7 +25,7 @@ SECRET_KEY = 'i@9!z88srcri_uloj9tpncup5nuvb_g@q5owrp*4_pu5v)r62('
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['jonoelcock.pythonanywhere.com']
 
 
 # Application definition
@@ -68,7 +68,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'MiLittleLife.wsgi.application'
+#WSGI_APPLICATION = 'MiLittleLife.wsgi.application'
 
 
 # Database
@@ -76,9 +76,12 @@ WSGI_APPLICATION = 'MiLittleLife.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': 'db.sqlite3',
-
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'wme',
+        'USER': 'super',
+        'PASSWORD': 'New3ton5',
+        'HOST': 'jonoelcock-249.postgres.pythonanywhere-services.com',
+        'PORT': '10249',
     }
 }
 
